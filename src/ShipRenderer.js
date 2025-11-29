@@ -165,10 +165,10 @@ export default class ShipRenderer {
       this.gridCollection.add(gridObject3DCollections[gridObject3DIndex]);
     }
 
-    this.centerGricCollection();
+    this.centerGridCollection();
   }
 
-  centerGricCollection() {
+  centerGridCollection() {
     this.updateGridBox();
 
     const tempSize = new Vector3();
