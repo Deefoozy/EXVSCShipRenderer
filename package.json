@@ -6,12 +6,12 @@
   "module": "dist/index.esm.js",
   "type": "module",
   "scripts": {
-    "build": "npm run build:esm && npm run build:cjs && npm run build:browser",
-    "build:esm": "esbuild src/index.js --bundle --minify --sourcemap --format=esm --outfile=dist/index.esm.js",
-    "build:cjs": "esbuild src/index.js --bundle --minify --sourcemap --format=cjs --outfile=dist/index.cjs.js",
-    "build:browser": "esbuild src/index.js --bundle --minify --sourcemap --format=iife --global-name=ShipRenderer --outfile=dist/index.browser.js",
-    "build:dev": "esbuild src/index.js --bundle --sourcemap --format=esm --outfile=dist/index.esm.js",
-    "watch": "esbuild src/index.js --bundle --sourcemap --format=esm --outfile=dist/index.esm.js --watch",
+    "build": "bun run build:esm && bun run build:cjs && bun run build:browser",
+    "build:esm": "esbuild src/ShipRenderer.js --bundle --minify --sourcemap --format=esm --outfile=dist/index.esm.js",
+    "build:cjs": "esbuild src/ShipRenderer.js --bundle --minify --sourcemap --format=cjs --outfile=dist/index.cjs.js",
+    "build:browser": "esbuild src/ShipRenderer.js --bundle --minify --sourcemap --format=iife --global-name=ShipRenderer --outfile=dist/index.browser.js",
+    "build:dev": "esbuild src/ShipRenderer.js --bundle --sourcemap --format=esm --outfile=dist/index.esm.js",
+    "watch": "esbuild src/ShipRenderer.js --bundle --sourcemap --format=esm --outfile=dist/index.esm.js --watch",
     "clean": "rm -rf dist"
   },
   "files": [
@@ -25,7 +25,12 @@
   ],
   "author": "",
   "license": "ISC",
+  "dependencies": {
+    "three": "^0.176.0",
+    "three.js": "^0.77.1"
+  },
   "devDependencies": {
-    "esbuild": "^0.27.0"
+    "esbuild": "^0.27.0",
+    "@types/three": "^0.176.0"
   }
 }

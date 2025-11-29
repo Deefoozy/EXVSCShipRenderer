@@ -1,10 +1,10 @@
-import "../types/grids.js"
-import "../types/jsonGrids.js"
-import "../types/viewport.js"
+import "./types/grids.js"
+import "./types/jsonGrids.js"
+import "./types/viewport.js"
 
 import {AmbientLight, Box3, BoxGeometry, Object3D, Material, Mesh, MeshBasicMaterial, Scene, Vector3} from "three";
 import {OrbitControls} from "three/examples/jsm/controls/OrbitControls.js";
-import {CameraPosition, CameraType, getAxisByIndexes, returnZeroAxisIndexes} from "../types/viewport.js";
+import {CameraPosition, CameraType, getAxisByIndexes, returnZeroAxisIndexes} from "./types/viewport.js";
 
 /**
  * @property {ShipInfo} shipGridInformation
