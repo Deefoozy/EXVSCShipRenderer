@@ -1,0 +1,31 @@
+{
+  "name": "exvscshiprenderer",
+  "version": "1.0.0",
+  "description": "EXVSCShipRenderer - A JavaScript library with minification setup",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "type": "module",
+  "scripts": {
+    "build": "npm run build:esm && npm run build:cjs && npm run build:browser",
+    "build:esm": "esbuild src/index.js --bundle --minify --sourcemap --format=esm --outfile=dist/index.esm.js",
+    "build:cjs": "esbuild src/index.js --bundle --minify --sourcemap --format=cjs --outfile=dist/index.cjs.js",
+    "build:browser": "esbuild src/index.js --bundle --minify --sourcemap --format=iife --global-name=ShipRenderer --outfile=dist/index.browser.js",
+    "build:dev": "esbuild src/index.js --bundle --sourcemap --format=esm --outfile=dist/index.esm.js",
+    "watch": "esbuild src/index.js --bundle --sourcemap --format=esm --outfile=dist/index.esm.js --watch",
+    "clean": "rm -rf dist"
+  },
+  "files": [
+    "dist",
+    "src"
+  ],
+  "keywords": [
+    "ship",
+    "renderer",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.27.0"
+  }
+}
