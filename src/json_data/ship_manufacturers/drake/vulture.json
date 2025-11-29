@@ -1,0 +1,17 @@
+{
+  "shipName": "Vulture",
+  "hangarSize": "Small",
+  "cargoSize": 12,
+  "gridInfo": [
+    {
+      "name": "Main hold",
+      "grids": [
+        {
+          "sizeX": 2,
+          "sizeY": 2,
+          "sizeZ": 3
+        }
+      ]
+    }
+  ]
+}

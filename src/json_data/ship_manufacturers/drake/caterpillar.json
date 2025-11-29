@@ -1,0 +1,151 @@
+{
+  "shipName": "Caterpillar",
+  "hangarSize": "Large",
+  "cargoSize": 576,
+  "gridInfo": [
+    {
+      "name": "1st section",
+      "boxParams": {
+        "offsetZ": 1
+      },
+      "grids": [
+        {
+          "name": "Main grid",
+          "offsetZ": 1,
+          "sizeX": 6,
+          "sizeY": 4,
+          "sizeZ": 4
+        },
+        {
+          "name": "Port grid",
+          "offsetX": 6,
+          "offsetZ": 1,
+          "sizeX": 1,
+          "sizeY": 2,
+          "sizeZ": 4
+        },
+        {
+          "name": "Back grid",
+          "sizeX": 5,
+          "sizeY": 4,
+          "sizeZ": 1
+        }
+      ]
+    },
+
+    {
+      "name": "2nd section",
+      "positionZ": 6,
+      "boxParams": {
+        "offsetZ": 1
+      },
+      "grids": [
+        {
+          "name": "Main grid",
+          "offsetZ": 1,
+          "sizeX": 6,
+          "sizeY": 4,
+          "sizeZ": 4
+        },
+        {
+          "name": "Port grid",
+          "offsetX": 6,
+          "offsetZ": 1,
+          "sizeX": 1,
+          "sizeY": 2,
+          "sizeZ": 4
+        },
+        {
+          "name": "Back grid",
+          "sizeX": 5,
+          "sizeY": 4,
+          "sizeZ": 1
+        }
+      ]
+    },
+
+    {
+      "name": "3rd section",
+      "positionZ": 12,
+      "boxParams": {
+        "offsetZ": 1
+      },
+      "grids": [
+        {
+          "name": "Main grid",
+          "offsetZ": 1,
+          "sizeX": 6,
+          "sizeY": 4,
+          "sizeZ": 4
+        },
+        {
+          "name": "Port grid",
+          "offsetX": 6,
+          "offsetZ": 1,
+          "sizeX": 1,
+          "sizeY": 2,
+          "sizeZ": 4
+        },
+        {
+          "name": "Back grid",
+          "sizeX": 5,
+          "sizeY": 4,
+          "sizeZ": 1
+        }
+      ]
+    },
+
+    {
+      "name": "4th section",
+      "positionZ": 18,
+      "boxParams": {
+        "offsetZ": 1
+      },
+      "grids": [
+        {
+          "name": "Main grid",
+          "offsetZ": 1,
+          "sizeX": 6,
+          "sizeY": 4,
+          "sizeZ": 4
+        },
+        {
+          "name": "Port grid",
+          "offsetX": 6,
+          "offsetZ": 1,
+          "sizeX": 1,
+          "sizeY": 2,
+          "sizeZ": 4
+        },
+        {
+          "name": "Back grid",
+          "sizeX": 5,
+          "sizeY": 4,
+          "sizeZ": 1
+        }
+      ]
+    },
+
+    {
+      "name": "Nose section",
+      "positionX": 2,
+      "positionZ": 24,
+      "grids": [
+        {
+          "name": "nose bottom grid",
+          "sizeX": 5,
+          "sizeY": 2,
+          "sizeZ": 6
+        },
+        {
+          "name": "nose top grid",
+          "offsetY": 2,
+          "offsetZ": 2,
+          "sizeX": 5,
+          "sizeY": 1,
+          "sizeZ": 4
+        }
+      ]
+    }
+  ]
+}
