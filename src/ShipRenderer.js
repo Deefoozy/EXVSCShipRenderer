@@ -28,6 +28,10 @@ export default class ShipRenderer {
   currentGridBounds = null
   boxSize = 0.9
 
+  static hello() {
+    console.log("world.");
+  }
+
   /**
    * @param {Viewport[]} viewports
    */
